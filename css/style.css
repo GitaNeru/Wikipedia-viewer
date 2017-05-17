@@ -1,0 +1,37 @@
+body{
+  background-color:lightblue;
+}
+h1{
+  margin-top:40px; 
+  color:darkblue;
+}
+input-text{
+  margin-top:120px;
+  margin-left:auto;
+  margin-left:auto;
+  width:400px;
+}
+#searchbox
+{
+    background-color: #eaf8fc;
+    background-image: linear-gradient(#fff, #d4e8ec);
+    border-radius: 35px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4d9df #a4c3ca #83afb7;            
+    width: 500px;
+    height: 45px;
+    padding: 10px;
+    margin: 100px auto 0px;
+    overflow: hidden; /* Clear floats */
+}
+#search{
+  color:darkBlue;
+}
+#searchTerm{
+  width:90%;
+  border:0;
+  height:30px;
+  padding:10px;
+  background-color:;
+}

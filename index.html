@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+  <div class="jumbotran">
+  <h1 class="text-center">Wikipedia Viewer</h1>
+    
+    <form id="searchbox" action="">      
+    <input class="form-group" placeholder="Type here..." id="searchTerm">
+       <button id="search" type="button" class="btn btn-success btn-sm">
+         <span class="glyphicon glyphicon-search"></span></button>    
+      
+    </form>   
+      <div class="col-md-4 col-md-offset-4 text-center">
+       <h4> <a id="random">Click here for random article</a><h4>
+      </div>  
+    <div class="col-md-push-2 col-md-8">
+    <ul id="output">
+
+
+  </ul>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
